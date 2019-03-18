@@ -23,6 +23,7 @@ function create(){
     /* CURSOR MOVE */
     jeu.controlConfig.initCursor()
     jeu.controls = new Phaser.Cameras.Controls.FixedKeyControl(jeu.controlConfig.values());
+    jeu.world.gererColisions();
 }
 
 function update(time, delta){
