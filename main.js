@@ -19,13 +19,16 @@ function create(){
     /* PLAYER  / PLAYER ANIME */
     jeu.player.initialiserPlayer();
     jeu.player.generatePlayerAnimations();
-    jeu.player.aPlayer.anims.play("playerWalk");
+    // jeu.player.aPlayer.anims.play("playerWalk");
     /* CURSOR MOVE */
     jeu.controlConfig.initCursor()
-    jeu.controls = new Phaser.Cameras.Controls.FixedKeyControl(jeu.controlConfig.values());
+    //jeu.controls = new Phaser.Cameras.Controls.FixedKeyControl(jeu.controlConfig.values());
     jeu.world.gererColisions();
+    jeu.world.gererCamera();
+
 }
 
 function update(time, delta){
-    jeu.controls.update(delta);
+    //jeu.controls.update(delta);
+    jeu.player.gererDeplacement()
 }
