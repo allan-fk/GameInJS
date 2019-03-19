@@ -2,10 +2,22 @@
  "infinite":false,
  "layers":[
         {
-         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAQAAAAEAAAABAAAAAQAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA",
+         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA",
          "encoding":"base64",
          "height":10,
          "name":"bot",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":false,
+         "width":30,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+         "encoding":"base64",
+         "height":10,
+         "name":"world",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -14,10 +26,10 @@
          "y":0
         }, 
         {
-         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANQAAADUAAAA1AAAANQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
          "encoding":"base64",
          "height":10,
-         "name":"world",
+         "name":"overlap",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -32,7 +44,7 @@
          "name":"top",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":30,
          "x":0,
          "y":0
@@ -46,11 +58,11 @@
         {
          "columns":14,
          "firstgid":1,
-         "image":"..\/tilesheet.png",
+         "image":"tilesheet.png",
          "imageheight":448,
          "imagewidth":896,
          "margin":0,
-         "name":"Tilset_map",
+         "name":"tilesheet",
          "spacing":0,
          "tilecount":98,
          "tileheight":64,
@@ -58,790 +70,790 @@
             {
              "0":
                 {
-                 "Collisions":true
+                 "Collides":true
                 },
              "1":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "10":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "11":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "12":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "13":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "14":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "15":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "16":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "17":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "18":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "19":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "2":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "20":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "21":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "22":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "23":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "24":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "25":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "26":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "27":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "28":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "29":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "3":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "30":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "31":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "32":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "33":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "34":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "35":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "36":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "37":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "38":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "39":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "4":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "40":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "41":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "42":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "43":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "44":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "45":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "46":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "47":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "48":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "49":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "5":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "50":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "51":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "52":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "53":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "54":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "55":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "56":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "57":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "58":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "59":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "6":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "60":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "61":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "62":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "63":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "64":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "65":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "66":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "67":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "68":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "69":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "7":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "70":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "71":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "72":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "73":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "74":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "75":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "76":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "77":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "78":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "79":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "8":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "80":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "81":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "82":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "83":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "84":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "85":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "86":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "87":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "88":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "89":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "9":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "90":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "91":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "92":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "93":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "94":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "95":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "96":
                 {
-                 "Collisions":true
+                 "Collides":false
                 },
              "97":
                 {
-                 "Collisions":true
+                 "Collides":false
                 }
             },
          "tilepropertytypes":
             {
              "0":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "1":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "10":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "11":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "12":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "13":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "14":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "15":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "16":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "17":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "18":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "19":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "2":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "20":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "21":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "22":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "23":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "24":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "25":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "26":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "27":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "28":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "29":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "3":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "30":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "31":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "32":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "33":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "34":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "35":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "36":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "37":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "38":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "39":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "4":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "40":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "41":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "42":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "43":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "44":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "45":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "46":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "47":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "48":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "49":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "5":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "50":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "51":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "52":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "53":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "54":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "55":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "56":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "57":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "58":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "59":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "6":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "60":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "61":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "62":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "63":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "64":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "65":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "66":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "67":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "68":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "69":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "7":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "70":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "71":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "72":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "73":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "74":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "75":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "76":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "77":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "78":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "79":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "8":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "80":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "81":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "82":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "83":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "84":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "85":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "86":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "87":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "88":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "89":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "9":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "90":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "91":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "92":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "93":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "94":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "95":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "96":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 },
              "97":
                 {
-                 "Collisions":"bool"
+                 "Collides":"bool"
                 }
             },
          "tilewidth":64
