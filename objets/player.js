@@ -3,8 +3,9 @@ var player = {
     isJumping : null,
 
     initialiserPlayer : function(){
-        this.aPlayer = jeu.scene.physics.add.sprite(200,200,"player", "adventurer_stand");
+        this.aPlayer = jeu.scene.physics.add.sprite(jeu.world.positionDebut.x,jeu.world.positionDebut.y,"player", "adventurer_stand");
         this.aPlayer.setCollideWorldBounds(true);
+        this.aPlayer.setOrigin(0.5,1);
     },
     generatePlayerAnimations : function(){
         jeu.scene.anims.create ({
@@ -24,11 +25,11 @@ var player = {
     gererDeplacement : function(){
         const touche = jeu.controlConfig.cursor
         if(touche.left.isDown){
-            this.aPlayer.setVelocityX(-300);
+            this.aPlayer.setVelocityX(-400);
             this.aPlayer.anims.play("playerWalk", true);
             this.aPlayer.setFlip(true, false);
         } else if (touche.right.isDown){
-            this.aPlayer.setVelocityX(+300);
+            this.aPlayer.setVelocityX(+400);
             this.aPlayer.anims.play("playerWalk", true);
             this.aPlayer.setFlip(false, false);
         } else {
@@ -38,7 +39,7 @@ var player = {
                 this.aPlayer.setTexture('player', 'adventurer_duck'); 
             }
         }  if (touche.up.isDown && this.aPlayer.body.onFloor()){
-            this.aPlayer.setVelocityY(-700);
+            this.aPlayer.setVelocityY(-1000);
         } if (this.aPlayer.body.onFloor()) {
             this.isJumping = false;
         } else {
@@ -46,6 +47,12 @@ var player = {
         }
         if(this.isJumping){
             this.aPlayer.setTexture('player', 'adventurer_jump');
+            if(touche.down.isDown ){
+            this.aPlayer.setTexture('player', 'adventurer_cheer2');
+            this.aPlayer.setVelocityY(+900);
+            //this.aPlayer.setFlip(true, false);
+            //this.aPlayer.setFlip(false, false);
+            }
         }
     } 
 }
