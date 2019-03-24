@@ -11,6 +11,7 @@ function preload(){
     jeu.scene.load.image('map','assets/map/tilesheet.png');
     jeu.scene.load.tilemapTiledJSON('mapJSON', 'assets/map/map_json.json')
     jeu.scene.load.atlas('player', 'assets/images/playerSprites.png', 'assets/json/player_Atlas.json')
+    jeu.scene.load.image('spark', 'assets/images/particules/circle_05.png');
 }
 
 function create(){

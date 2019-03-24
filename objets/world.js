@@ -45,7 +45,7 @@ var world = {
         jeu.scene.cameras.main.setBounds(0,0,this.tilemap.widthInPixels, this.tilemap.heightInPixels)
     },
     collectGemme : function(player, tile){
-        console.log('coucou');
+        this.genererParticules(tile.getCenterX(), tile.getCenterY());
         this.addScoreGemme(tile.properties.items);
         this.scoreText.setText("Score : " + this.score)
 
@@ -59,5 +59,26 @@ var world = {
             this.score += 2;
         }
         console.log("Score :" + this.score);
+    },
+    genererParticules : function(posX, posY){
+        var particules = jeu.scene.add.particles('spark');
+        
+        var confParticules = {
+            x : posX,
+            y : posY,
+            speed : 1000,
+            lifeSpan : {min : 10, max : 1},
+            scale : {start : 0.01, end : 0.1},
+            blendMode : "ADD"
+
+        }
+        var emitter = particules.createEmitter(confParticules);
+        /*emitter.setPosition(posX,posY);
+        emitter.setScale(0.05);
+        emitter.setSpeed(500);
+        emitter.setBlendMode(Phaser.BlendModes.ADD);*/
+        jeu.scene.time.delayedCall(250, function() {
+            particules.destroy();
+        })
     }
 }
